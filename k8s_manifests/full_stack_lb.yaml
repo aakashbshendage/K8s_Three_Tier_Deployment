@@ -11,7 +11,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: k8s-workshop-mainlb-7f430e3450-822386880.us-west-1.elb.amazonaws.com
+    - host: k8s-workshop-mainlb-7f430e3450-822386880.us-west-2.elb.amazonaws.com
       http:
         paths:
           - path: /api
